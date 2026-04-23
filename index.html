@@ -1,0 +1,83 @@
+<!--
+Project Title: Personal Portfolio Website
+Name: Your Name
+Date: DD/MM/YYYY
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Trial Website</h1>
+        <p>Aspiring Web Developer</p>
+        <nav>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>
+            I am a computer science student learning web development.
+            I enjoy creating simple and clean websites using HTML, CSS, and JavaScript.
+        </p>
+    </section>
+
+    <section id="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+        </ul>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+
+        <div class="project-card">
+            <h3>Portfolio Website</h3>
+            <p>A personal website to showcase my skills and projects.</p>
+        </div>
+
+        <div class="project-card">
+            <h3>Simple Calculator</h3>
+            <p>A basic calculator built using HTML, CSS, and JavaScript.</p>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+
+        <form id="contactForm">
+            <label>Name:</label><br>
+            <input type="text" id="name" required><br><br>
+
+            <label>Email:</label><br>
+            <input type="email" id="email" required><br><br>
+
+            <label>Message:</label><br>
+            <textarea id="message" required></textarea><br><br>
+
+            <button type="submit">Submit</button>
+        </form>
+
+        <button id="visitBtn">Click Me</button>
+    </section>
+
+    <footer>
+        <p>© 2026 Your Name. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
